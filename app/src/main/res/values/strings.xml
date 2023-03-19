@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IMC App</string>
+    <string name="principal_text">Conoce tu IMC</string>
+    <string name="text_height">Estatura: M</string>
+    <string name="text_weight">Peso: Kg</string>
+    <string name="calculate">Calcular IMC</string>
+    <string name="activate_english">Activar sistema inglés</string>
+    <string name="activate_metric">Activar sistema métrico</string>
+    <string name="obligatorio">*Campo obligatorio</string>
+    <string name="empty" />
+    <string name="estatura">estatura</string>
+    <string name="hint">1234</string>
+
+</resources>
