@@ -9,6 +9,7 @@ import com.santiagotorres.imcapp.databinding.ActivityImcactivityBinding
 import java.text.DecimalFormat
 import kotlin.math.pow
 
+//Subido a branch version1.0 - Laboratorio #1
 class IMCActivity : AppCompatActivity() {
 
     private lateinit var converterBinding: ActivityImcactivityBinding
