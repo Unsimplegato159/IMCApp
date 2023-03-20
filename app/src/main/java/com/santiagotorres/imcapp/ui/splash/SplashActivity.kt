@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.santiagotorres.imcapp.R
 import com.santiagotorres.imcapp.databinding.ActivitySplashBinding
 import com.santiagotorres.imcapp.ui.imc.IMCActivity
 import java.util.*
@@ -24,10 +25,10 @@ class SplashActivity : AppCompatActivity() {
         val timer = Timer()
         timer.schedule(
             timerTask {
-            val intent = Intent(this@SplashActivity, IMCActivity::class.java)
-            startActivity(intent)
-            finish()
-        }, 2000
+                val intent = Intent(this@SplashActivity, IMCActivity::class.java)
+                startActivity(intent)
+                finish()
+            }, 2000
         )
 
     }
